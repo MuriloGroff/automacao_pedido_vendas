@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/71da29da-9411-4689-9f74-48ce46984ea7) Integração com a API do Bling para Gerenciamento de Vendas
+🚀 Integração com a API do Bling para Gerenciamento de Vendas e Produtos
 Este repositório contém um script Python que integra a API do Bling para buscar e armazenar informações detalhadas de vendas em um banco de dados MySQL. O foco principal é a tabela vendas_detalhes, que organiza os dados de vendas de forma estruturada.
 
 🛠️ Funcionalidades
