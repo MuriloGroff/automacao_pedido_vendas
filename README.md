@@ -27,31 +27,25 @@ O script utiliza um arquivo JSON para armazenar os tokens de acesso e renovaçã
 
 2️⃣ Busca de Vendas
 A função buscar_ids_vendas realiza a busca de vendas em um intervalo de datas, com suporte à paginação.
-
 ![image](https://github.com/user-attachments/assets/f53a34f8-ef49-4999-8c22-0c9ebf51331d)
 
 3️⃣ Detalhes de Vendas
 A função buscar_detalhes_venda obtém informações detalhadas de uma venda específica, incluindo itens, taxas e transporte.
-
 ![image](https://github.com/user-attachments/assets/d20228e1-09ab-4e06-aa5e-f6c6ceb55066)
 
 
 4️⃣ Armazenamento no Banco de Dados
 Os dados são armazenados na tabela vendas_detalhes com controle de duplicidade. A tabela inclui informações como número da venda, loja, itens, taxas e transporte.
-
 ![image](https://github.com/user-attachments/assets/bda7a85c-1d64-462d-a589-cfd985a7a598)
 
 
 
 🗂️ Estrutura da Tabela vendas_detalhes
-
 ![image](https://github.com/user-attachments/assets/22161dd7-62bf-42d5-b688-27ccdc7ec157)
 
 🔧 Tecnologias Utilizadas
 Python: Linguagem principal para desenvolvimento do script.
-
 MySQL: Banco de dados relacional para armazenamento das informações.
-
 API do Bling: Fonte de dados para vendas e produtos.
 
 Bibliotecas Python:
@@ -78,26 +72,25 @@ Tratamento de erros para garantir a continuidade do processo.
 
 📌 Como Executar
 Configurar o Banco de Dados:
-
 Crie a tabela vendas_detalhes no MySQL.
 Certifique-se de que as colunas estão configuradas corretamente.
+
 Configurar Tokens de Acesso:
-
 Salve os tokens de acesso e renovação no arquivo tokens.json.
-Executar o Script:
 
+Executar o Script:
 Certifique-se de que todas as dependências estão instaladas.
 Execute o script Python.
+
 Verificar os Resultados:
-
 Os dados serão armazenados na tabela vendas_detalhes.
-🌟 Destaques
 
+🌟 Destaques
 Integração com API RESTful: Demonstra como consumir APIs externas de forma eficiente.
 Armazenamento Estruturado: Uso de MySQL para organizar e persistir os dados.
 Automação e Escalabilidade: Processamento contínuo com suporte a grandes volumes de dados.
-💡 Conclusão
 
+💡 Conclusão
 Este projeto é um exemplo prático de como integrar APIs externas com bancos de dados para criar soluções automatizadas e escaláveis. Ele pode ser adaptado para diferentes cenários, como gestão de estoque, análise de vendas e muito mais.
 
 Se você gostou deste projeto ou tem sugestões, deixe seu feedback! 🚀
