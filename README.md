@@ -50,24 +50,6 @@ cursor.execute('''
 
 ![image](https://github.com/user-attachments/assets/22161dd7-62bf-42d5-b688-27ccdc7ec157)
 
-Coluna	Tipo	Descrição
-numero	VARCHAR	Número da venda
-numeroLoja	VARCHAR	Número da loja
-data	DATE	Data da venda
-situacao_desc	VARCHAR	Situação da venda
-nome_loja	VARCHAR	Nome da loja
-item_codigo	VARCHAR	Código do item
-item_unidade	VARCHAR	Unidade do item
-item_quantidade	INT	Quantidade do item
-item_valor	FLOAT	Valor total do item
-item_descricao	VARCHAR	Descrição do item
-taxaComissao	FLOAT	Taxa de comissão
-custoFrete	FLOAT	Custo do frete
-valorBase	FLOAT	Valor base da venda
-id	BIGINT	ID da venda
-servico	VARCHAR	Serviço de transporte
-
-
 🔧 Tecnologias Utilizadas
 Python: Linguagem principal para desenvolvimento do script.
 MySQL: Banco de dados relacional para armazenamento das informações.
